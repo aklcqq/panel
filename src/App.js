@@ -128,7 +128,6 @@ export default class App extends Component {
     .map((obj,index) => {
       return <div className="col-sm-4"><RandomRow randomValue={obj['ps']} 
       key={index}
-      visibility={this.state.visibility}
       handleOnclick={() => {
         that.switchConfig(obj);
       }}/></div>});
