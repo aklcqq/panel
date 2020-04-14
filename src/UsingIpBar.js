@@ -21,7 +21,7 @@ export class UsingIpBar extends Component {
 
         return(
         <div style={boxStyle} onClick={this.props.onClick} className={this.props.className}>
-            Public IP: { this.props.usingIp }
+            <p>Public IP: { this.props.usingIp }</p>
         </div>
     )}
 }
